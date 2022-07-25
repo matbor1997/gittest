@@ -16,6 +16,8 @@ public class AgeChecker {
 
         if (wiek >= 18) {
             System.out.println("Zapraszamy na zakupy :)");
+        } else if (wiek <= 0) {
+            System.out.println("Wprowadz poprawny wiek.");
         } else {
             System.out.println("Alkohol sprzedawany jest wylacznie osobom pelnoletnim.");
         }
